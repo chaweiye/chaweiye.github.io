@@ -1,0 +1,21 @@
+*{
+
+}
+
+body{
+    border: 2px solid black;
+    background: darkred;
+}
+
+html{
+    background: indianred;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    font: bold 21px "宋体";
+    text-decoration: none;
+}
