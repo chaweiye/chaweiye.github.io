@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -93,7 +93,7 @@ h2 {
 #main_right img {
     position: absolute;
     width: 260px;
-    right: 0px;
+    right: 0;
     top: 30px;
 }
 
@@ -106,17 +106,17 @@ h2 {
     margin-top: 10px;
 }
 
-#luxing {
+#travel {
     background-color: #86aacb;
     width: 1000px;
 }
 
-#luxing div {
-    font-size: 0px;
+#travel div {
+    font-size: 0;
 }
 
 #picture {
-    font-size: 0px;
+    font-size: 0;
     display: inline-block;
     margin-left: 25px;
     margin-right: 25px;
@@ -157,7 +157,6 @@ footer {
 
 #liuyan {
     width: 660px;
-    margin-left: 10px;
     margin: 20px;
 }
 
