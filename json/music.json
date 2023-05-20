@@ -1,9 +1,29 @@
 {
   "songs": [
     {
-      "name": "武林外传 茉莉花（2020 8.8 凌晨）",
+      "name": "《武林外传 茉莉花（2020 8.8 凌晨）》",
       "author": "Jeremy",
       "update": "2023/3/17"
+    },
+    {
+      "name": "《一直很安静》",
+      "author": "阿桑",
+      "update": "2023/5/20"
+    },
+    {
+      "name": "《恋曲1980》",
+      "author": "罗大佑",
+      "update": "2023/5/20"
+    },
+    {
+      "name": "《恒星恒心》",
+      "author": "水起",
+      "update": "2023/5/20"
+    },
+    {
+      "name": "《Devil in My Hand》",
+      "author": "The Dentals",
+      "update": "2023/5/20"
     }
   ]
 }
