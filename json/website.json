@@ -6,7 +6,13 @@
       "type": "learn",
       "desc": "免费且丰富的Java合集视频内容",
       "update": "2023/4/12"
-    }
+    },{ 
+       "name": "蓝奏云", 
+       "site": "https://chaweiye.lanzouq.com/idIyE14kzyhc", 
+       "type": "learn", 
+       "desc": "免费且丰富的节点", 
+       "update": "2023/8/6" 
+     }
   ]
   
 }
