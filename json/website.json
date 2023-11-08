@@ -12,6 +12,12 @@
        "type": "learn", 
        "desc": "免费且丰富的节点", 
        "update": "2023/8/6" 
+     },{ 
+       "name": "MistyCloud", 
+       "site": "https://mistycloud.io/zh-CN", 
+       "type": "network", 
+       "desc": "免费且丰富的节点", 
+       "update": "2023/11/8" 
      }
   ]
   
