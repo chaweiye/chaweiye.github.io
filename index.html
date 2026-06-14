@@ -1,97 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- 
- 对酒当歌，人生几何？ 
- 譬如朝露，去日苦多。 
- 慨当以慷，忧思难忘。 
- 何以解忧，唯有杜康。 
--->
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人介绍</title>
+    <meta name="description" content="查伟业的个人空间 - 星河滚烫，人间理想">
+    <meta name="author" content="查伟业">
+    <title>星河 · 查伟业</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
 </head>
-
 <body>
-<div id="bigbox">
-    <div id="banner">
-        <img src="img/travel/" alt="">
-    </div>
-    <nav>
-        <a class="dangqian" href="">首页</a>
-        <a href="#">短文</a>
-        <a href="#">日志</a>
-        <a href="#">留言板</a>
+    <!-- 星空背景 -->
+    <div id="stars-container"></div>
+    <div id="meteor-container"></div>
+    
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">星河</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+                <li><a href="#journey" class="nav-link">旅途</a></li>
+                <li><a href="#words" class="nav-link">心语</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
-    <div id="main">
-        <div id="main_left">
-            <h2>关于我</h2>
-            <img src="img/travel/" alt="">
-            <p>
-                <span>姓名</span>:查伟业<br>
-                <span>性别</span>:男<br>
-                <span>爱好</span>:听歌 踢足球 打游戏<br>
-                <span>性格</span>:开朗<br>
-                <span>家乡</span>:河南南阳<br>
-                <span>专业</span>:大数据技术
-            </p>
-        </div>
-        <div id="main_right">
-            <h2>热爱生活</h2>
-            <p>
-                一、岁月从来不曾静好，只是有人在替你背负枷锁，含泪前行。也许是父母，也许是朋友，也许是陌生人……无论是谁，请记得常怀感恩之心。
-            </p>
-            <p>
-                二、这个世界并不完美，甚至有点残酷。你无法决定下一段旅途遇见的是好事还是坏事，可你能决定面对它们的态度。你看这个世界的角度，决定了这个世界给你的温度。
-            </p>
-            <p>
-                三、总会有一件事让你瞬间长大，也总会有一个人让你泪如雨下。愿你早日领教这个世界的深深恶意，让自己活得开心得意。
-            </p>
-            <p>
-                四、想要与众不同，却总随遇而安，想要做很多未做的事，却在现实棘手的吃喝拉撒前低下了头，我们间歇性热血满腔，长时间迷茫犯懒，别等了，再努力试试看！
-            </p>
-            <img src="img/travel/" alt="">
-        </div>
-    </div>
-    <div id="travel">
-        <h2>旅行生活</h2>
-        <div>
-            <div class="picture">
-                <img src="img/travel/" alt="">
-                <p>在日月潭</p>
-            </div>
-            <div class="picture">
-                <img src="img/travel/" alt="">
-                <p>
-                    在毛里求斯
-                </p>
-            </div>
-            <div class="picture">
-                <img src="img/travel/" alt="">
-                <p>
-                    在马尔代夫
-                </p>
-            </div>
-            <div class="picture">
-                <img src="img/travel/" alt="">
-                <p>
-                    在玉龙雪山
-                </p>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <p>
-            版权所有©*****
-        </p>
-    </footer>
-</div>
-</body>
 
+    <!-- 首页英雄区 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-avatar">
+                <div class="avatar-ring"></div>
+                <div class="avatar-inner">
+                    <span class="avatar-text">查</span>
+                </div>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">你好，我是</span>
+                <span class="title-name">查伟业</span>
+            </h1>
+            <p class="hero-subtitle">
+                大数据技术 · 热爱生活 · 奔赴山海
+            </p>
+            <div class="hero-quote">
+                <span class="quote-mark">"</span>
+                <span class="quote-text">对酒当歌，人生几何；譬如朝露，去日苦多</span>
+                <span class="quote-mark">"</span>
+            </div>
+            <div class="hero-scroll">
+                <span class="scroll-text">向下探索</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">关于</span>
+                <h2 class="section-title">关于我</h2>
+                <p class="section-desc">在数据的海洋里航行，在生活的烟火中诗意栖居</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">👤</div>
+                    <h3>基本信息</h3>
+                    <ul class="info-list">
+                        <li><span class="label">姓名</span><span class="value">查伟业</span></li>
+                        <li><span class="label">性别</span><span class="value">男</span></li>
+                        <li><span class="label">家乡</span><span class="value">河南 · 南阳</span></li>
+                        <li><span class="label">专业</span><span class="value">大数据技术</span></li>
+                    </ul>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">❤️</div>
+                    <h3>热爱所在</h3>
+                    <div class="hobby-tags">
+                        <span class="tag">🎵 听歌</span>
+                        <span class="tag">⚽ 踢足球</span>
+                        <span class="tag">🎮 打游戏</span>
+                        <span class="tag">✈️ 旅行</span>
+                        <span class="tag">📚 阅读</span>
+                        <span class="tag">☕ 咖啡</span>
+                    </div>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">✨</div>
+                    <h3>性格标签</h3>
+                    <div class="personality">
+                        <div class="personality-item">
+                            <span class="p-bar" style="width: 90%"></span>
+                            <span class="p-label">开朗阳光</span>
+                        </div>
+                        <div class="personality-item">
+                            <span class="p-bar" style="width: 85%"></span>
+                            <span class="p-label">真诚待人</span>
+                        </div>
+                        <div class="personality-item">
+                            <span class="p-bar" style="width: 80%"></span>
+                            <span class="p-label">热爱探索</span>
+                        </div>
+                        <div class="personality-item">
+                            <span class="p-bar" style="width: 75%"></span>
+                            <span class="p-label">细致耐心</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 旅途 -->
+    <section id="journey" class="section journey-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">旅途</span>
+                <h2 class="section-title">旅行足迹</h2>
+                <p class="section-desc">步履不停，山河远阔，人间值得</p>
+            </div>
+            
+            <div class="journey-grid">
+                <div class="journey-card">
+                    <div class="journey-image">
+                        <div class="image-placeholder taiwan"></div>
+                    </div>
+                    <div class="journey-info">
+                        <h3>日月潭</h3>
+                        <p class="journey-location">📍 中国台湾</p>
+                        <p class="journey-desc">潭水如镜，山色空蒙，宝岛明珠，静谧如画</p>
+                    </div>
+                </div>
+                
+                <div class="journey-card">
+                    <div class="journey-image">
+                        <div class="image-placeholder mauritius"></div>
+                    </div>
+                    <div class="journey-info">
+                        <h3>毛里求斯</h3>
+                        <p class="journey-location">📍 印度洋</p>
+                        <p class="journey-desc">天堂原乡，碧海蓝天，非洲的热带风情</p>
+                    </div>
+                </div>
+                
+                <div class="journey-card">
+                    <div class="journey-image">
+                        <div class="image-placeholder maldives"></div>
+                    </div>
+                    <div class="journey-info">
+                        <h3>马尔代夫</h3>
+                        <p class="journey-location">📍 南亚</p>
+                        <p class="journey-desc">人间最后净土，椰林树影，水清沙白</p>
+                    </div>
+                </div>
+                
+                <div class="journey-card">
+                    <div class="journey-image">
+                        <div class="image-placeholder snow"></div>
+                    </div>
+                    <div class="journey-info">
+                        <h3>玉龙雪山</h3>
+                        <p class="journey-location">📍 云南丽江</p>
+                        <p class="journey-desc">纳西神山，白雪皑皑，海拔4680米的震撼</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 心语 -->
+    <section id="words" class="section words-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">心语</span>
+                <h2 class="section-title">温心寄语</h2>
+                <p class="section-desc">岁月沉淀的文字，写给自己也写给你</p>
+            </div>
+            
+            <div class="words-container">
+                <div class="word-card">
+                    <div class="word-number">01</div>
+                    <p class="word-text">
+                        岁月从来不曾静好，只是有人在替你背负枷锁，含泪前行。也许是父母，也许是朋友，也许是陌生人……无论是谁，请记得常怀感恩之心。
+                    </p>
+                </div>
+                
+                <div class="word-card">
+                    <div class="word-number">02</div>
+                    <p class="word-text">
+                        这个世界并不完美，甚至有点残酷。你无法决定下一段旅途遇见的是好事还是坏事，可你能决定面对它们的态度。你看这个世界的角度，决定了这个世界给你的温度。
+                    </p>
+                </div>
+                
+                <div class="word-card">
+                    <div class="word-number">03</div>
+                    <p class="word-text">
+                        总会有一件事让你瞬间长大，也总会有一个人让你泪如雨下。愿你早日领教这个世界的深深恶意，让自己活得开心得意。
+                    </p>
+                </div>
+                
+                <div class="word-card">
+                    <div class="word-number">04</div>
+                    <p class="word-text">
+                        想要与众不同，却总随遇而安，想要做很多未做的事，却在现实棘手的吃喝拉撒前低下了头。我们间歇性热血满腔，长时间迷茫犯懒，别等了，再努力试试看！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <h2>保持联系</h2>
+                <p class="contact-desc">人海茫茫，很高兴遇见你</p>
+                <div class="social-links">
+                    <a href="https://github.com/chaweiye" class="social-link" target="_blank" title="GitHub">
+                        <span class="social-icon">📦</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:example@email.com" class="social-link" title="邮箱">
+                        <span class="social-icon">📧</span>
+                        <span>Email</span>
+                    </a>
+                    <a href="#" class="social-link" title="微信">
+                        <span class="social-icon">💬</span>
+                        <span>WeChat</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-quote">「 星河滚烫，你是人间理想 」</p>
+                <p class="footer-copyright">© 2024 查伟业 · 用 ❤️ 制作</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
